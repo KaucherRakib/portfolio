@@ -150,10 +150,6 @@ body{
     color: var(--secondary);
 }
 
-/* .navbar .navbar-nav .nav-link.active{
-    color: var(--secondary);
-} */
-
 .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link.active {
     color: var(--light);
 }
