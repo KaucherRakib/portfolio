@@ -83,7 +83,20 @@ body{
 
 /*** Navbar ***/
 .navbar {
-  background-color: var(--primary);
+    background: rgba(49, 0, 122, 0.38);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(153, 0, 185, 0.3);
+    transition: .5s;
+}
+
+.navbar:hover{
+    background: rgba(68, 0, 145, 0.808);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(153, 0, 185, 0.3);
 }
 
 .navbar.fixed-top {
@@ -182,11 +195,11 @@ body{
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
-    background: url(../img/banner-img.png);
+    background: url(../img/main-banner.png);
     background-position: center;
     background-size: cover;
     min-height: 650px;
-    padding-top: 200px;
+    padding-top: 170px;
 }
 
 @media (max-width: 768.98px) {
